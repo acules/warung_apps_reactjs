@@ -4,12 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavbarComponent from './components/NavbarComponent';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <NavbarComponent />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -12,7 +12,7 @@ export default class NavbarComponent extends Component {
       <div>
         <Navbar variant="dark" expand="lg">
           <Container>
-            <Navbar.Brand href="#home">Warung App</Navbar.Brand>
+            <Navbar.Brand href="#home"><strong>Warung App</strong></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
